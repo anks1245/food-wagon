@@ -1,0 +1,50 @@
+@import "tailwindcss";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+:root{
+    --color-primary: #FFB30E;
+    --color-bg-fade: #FEEFD0;
+    --color-secondary: #2780ED;
+    --color-warning: #F17228;
+    
+    --color-gray-50: #FCFCFC;
+    --color-gray-100: #F5F5F5;
+    --color-gray-200: #EEEEEE;
+    --color-gray-300: #E0E0E0;
+    --color-gray-400: #BDBDBD;
+    --color-gray-500: #9E9E9E;
+    --color-gray-600: #757575;
+    --color-gray-700: #616161;
+    --color-gray-800: #424242;
+    --color-gray-900: #212121;
+
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-success: #79B93C;
+}
+
+.banner-bg{
+    background: linear-gradient(180deg,var(--color-primary),var(--color-warning));
+}
+
+.btn-grad{
+    background: linear-gradient(70deg,var(--color-primary),var(--color-warning));
+}
+
+.banner-bg-2{
+    background: linear-gradient(0deg,var(--color-gray-100),var(--md-sys-color-primary-container));
+}
+
+.banner-bg-footer{
+    background: url("/banner-footer.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.curve-bg{
+    background: url("/bg-app-download-2.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

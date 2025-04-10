@@ -1,0 +1,20 @@
+# Created by https://www.toptal.com/developers/gitignore/api/react
+# Edit at https://www.toptal.com/developers/gitignore?templates=react
+
+### react ###
+proj-redux/.DS_*
+proj-redux/*.log
+proj-redux/logs
+proj-redux/**/*.backup.*
+proj-redux/**/*.back.*
+
+proj-redux/node_modules
+proj-redux/bower_components
+
+proj-redux/*.sublime*
+
+proj-redux/psd
+proj-redux/thumb
+proj-redux/sketch
+
+# End of https://www.toptal.com/developers/gitignore/api/react

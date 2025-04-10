@@ -1,0 +1,27 @@
+
+#mobile-menu .hide{
+    position: absolute;
+    right: 100px;
+    transition: all 1s ease-in-out;
+}
+
+#mobile-menu .show{
+    transition: all 1s ease-in-out;
+    right: 0;
+}
+.mapboxgl-canvas{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.mapboxgl-ctrl-top{
+    width: 95%;
+}
+
+.mapboxgl-ctrl-geocoder {
+    width: 88% !important;
+    max-width: none !important;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-size: 12px;
+  }
