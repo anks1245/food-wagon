@@ -82,7 +82,7 @@ const Cart = () => {
                                             </div>
                                         ))):(
                                             <div className="flex flex-col justify-center items-center min-h-100">
-                                                <img src="/food-vector.svg" className="h-50 w-50" alt="no food"/>
+                                                <img src="./food-vector.svg" className="h-50 w-50" alt="no food"/>
                                                 <h4 className="text-xl m-2">No food items found</h4>
                                             </div>
                                         )

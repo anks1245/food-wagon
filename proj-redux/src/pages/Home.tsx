@@ -23,28 +23,28 @@ const Home = () => {
             restaurantName: "Red Foods",
             remainingDays: 1,
             discount: 15,
-            imgUrl: "/images/discount1.png"
+            imgUrl: "./images/discount1.png"
         },
         {
             restaurantId: 1,
             restaurantName: "Red Foods",
             remainingDays: 3,
             discount: 10,
-            imgUrl: "/images/discount2.png"
+            imgUrl: "./images/discount2.png"
         },
         {
             restaurantId: 1,
             restaurantName: "Greys Vage",
             remainingDays: 7,
             discount: 25,
-            imgUrl: "/images/discount3.png"
+            imgUrl: "./images/discount3.png"
         },
         {
             restaurantId: 1,
             restaurantName: "Greys Vage",
             remainingDays: 45,
             discount: 50,
-            imgUrl: "/images/discount4.png"
+            imgUrl: "./images/discount4.png"
         }
     ];
 
@@ -56,7 +56,7 @@ const Home = () => {
             restaurantName: "Burger Arena",
             price: 99.00,
             offeredPrice: 79.00,
-            foodImage: "/images/pi1.png",
+            foodImage: "./images/pi1.png",
             currency: "$",
             discount: 20,
             quatity: 1
@@ -68,7 +68,7 @@ const Home = () => {
             restaurantName: "Top Sticks",
             price: 119.00,
             offeredPrice: 99.00,
-            foodImage: "/images/pi2.png",
+            foodImage: "./images/pi2.png",
             currency: "$",
             discount: 12,
             quatity: 1
@@ -80,7 +80,7 @@ const Home = () => {
             restaurantName: "Cake world",
             price: 199.00,
             offeredPrice: null,
-            foodImage: "/images/pi3.png",
+            foodImage: "./images/pi3.png",
             currency: "$",
             discount: null,
             quatity: 1
@@ -92,7 +92,7 @@ const Home = () => {
             restaurantName: "Burger Arena",
             price: 199.00,
             offeredPrice: null,
-            foodImage: "/images/pi1.png",
+            foodImage: "./images/pi1.png",
             currency: "$",
             discount: null,
             quatity: 1
@@ -104,7 +104,7 @@ const Home = () => {
             restaurantName: "Burger Arena",
             price: 209.00,
             offeredPrice: null,
-            foodImage: "/images/pi4.png",
+            foodImage: "./images/pi4.png",
             currency: "$",
             discount: null,
             quatity: 1
@@ -116,7 +116,7 @@ const Home = () => {
             restaurantName: "Thai Soup",
             price: 99.00,
             offeredPrice: null,
-            foodImage: "/images/pi5.png",
+            foodImage: "./images/pi5.png",
             currency: "$",
             discount: null,
             quatity: 1
@@ -128,7 +128,7 @@ const Home = () => {
             restaurantName: "Burger Arena",
             price: 99.00,
             offeredPrice: null,
-            foodImage: "/images/pi1.png",
+            foodImage: "./images/pi1.png",
             currency: "$",
             discount: null,
             quatity: 1
@@ -140,7 +140,7 @@ const Home = () => {
             restaurantName: "Burger Arena",
             price: 99.00,
             offeredPrice: null,
-            foodImage: "/images/pi1.png",
+            foodImage: "./images/pi1.png",
             currency: "$",
             discount: null,
             quatity: 1
@@ -153,8 +153,8 @@ const Home = () => {
           "restaurantName": "Foodworld",
           "remainingDays": 5,
           "discount": 20,
-          "featureImageUrl": "/images/featured-restaurants/fr-1.png",
-          "restaurantLogoUrl": "/images/featured-restaurants/fr-logo-1.png",
+          "featureImageUrl": "./images/featured-restaurants/fr-1.png",
+          "restaurantLogoUrl": "./images/featured-restaurants/fr-logo-1.png",
           "time": "Fast",
           "ratings": 46
         },
@@ -163,8 +163,8 @@ const Home = () => {
           "restaurantName": "Pizzahub",
           "remainingDays": 7,
           "discount": 15,
-          "featureImageUrl": "/images/featured-restaurants/fr-2.png",
-          "restaurantLogoUrl": "/images/featured-restaurants/fr-logo-2.png",
+          "featureImageUrl": "./images/featured-restaurants/fr-2.png",
+          "restaurantLogoUrl": "./images/featured-restaurants/fr-logo-2.png",
           "time": "Fast",
           "ratings": 40
         },
@@ -173,8 +173,8 @@ const Home = () => {
           "restaurantName": "Donuts Hut",
           "remainingDays": 4,
           "discount": 10,
-          "featureImageUrl": "/images/featured-restaurants/fr-3.png",
-          "restaurantLogoUrl": "/images/featured-restaurants/fr-logo-3.png",
+          "featureImageUrl": "./images/featured-restaurants/fr-3.png",
+          "restaurantLogoUrl": "./images/featured-restaurants/fr-logo-3.png",
           "time": "Slow",
           "ratings": 20
         },
@@ -183,8 +183,8 @@ const Home = () => {
           "restaurantName": "Donuts Hut",
           "remainingDays": 6,
           "discount": 15,
-          "featureImageUrl": "/images/featured-restaurants/fr-4.png",
-          "restaurantLogoUrl": "/images/featured-restaurants/fr-logo-4.png",
+          "featureImageUrl": "./images/featured-restaurants/fr-4.png",
+          "restaurantLogoUrl": "./images/featured-restaurants/fr-logo-4.png",
           "time": "Fast",
           "ratings": 50
         },
@@ -193,8 +193,8 @@ const Home = () => {
           "restaurantName": "Ruby Tuesday",
           "remainingDays": 3,
           "discount": 10,
-          "featureImageUrl": "/images/featured-restaurants/fr-5.png",
-          "restaurantLogoUrl": "/images/featured-restaurants/fr-logo-5.png",
+          "featureImageUrl": "./images/featured-restaurants/fr-5.png",
+          "restaurantLogoUrl": "./images/featured-restaurants/fr-logo-5.png",
           "time": "Slow",
           "ratings": 26
         },
@@ -203,8 +203,8 @@ const Home = () => {
           "restaurantName": "Kuakata Fried Chicken",
           "remainingDays": 8,
           "discount": 25,
-          "featureImageUrl": "/images/featured-restaurants/fr-6.png",
-          "restaurantLogoUrl": "/images/featured-restaurants/fr-logo-6.png",
+          "featureImageUrl": "./images/featured-restaurants/fr-6.png",
+          "restaurantLogoUrl": "./images/featured-restaurants/fr-logo-6.png",
           "time": "Fast",
           "ratings": 53
         },
@@ -213,8 +213,8 @@ const Home = () => {
           "restaurantName": "Red Square",
           "remainingDays": 5,
           "discount": 10,
-          "featureImageUrl": "/images/featured-restaurants/fr-7.png",
-          "restaurantLogoUrl": "/images/featured-restaurants/fr-logo-7.png",
+          "featureImageUrl": "./images/featured-restaurants/fr-7.png",
+          "restaurantLogoUrl": "./images/featured-restaurants/fr-logo-7.png",
           "time": "Slow",
           "ratings": 45
         },
@@ -223,8 +223,8 @@ const Home = () => {
           "restaurantName": "Taco Bell",
           "remainingDays": 4,
           "discount": 10,
-          "featureImageUrl": "/images/featured-restaurants/fr-8.png",
-          "restaurantLogoUrl": "/images/featured-restaurants/fr-logo-8.png",
+          "featureImageUrl": "./images/featured-restaurants/fr-8.png",
+          "restaurantLogoUrl": "./images/featured-restaurants/fr-logo-8.png",
           "time": "Fast",
           "ratings": 35
         }
@@ -233,32 +233,32 @@ const Home = () => {
     const foodCategories: Category[] = [
         {
             categoryId: 1,
-            categoryImage: "/images/food/pizza.png",
+            categoryImage: "./images/food/pizza.png",
             categoryName: "Pizza"
         },
         {
             categoryId: 2,
-            categoryImage: "/images/food/burger.png",
+            categoryImage: "./images/food/burger.png",
             categoryName: "Burger"
         },
         {
             categoryId: 3,
-            categoryImage: "/images/food/noodles.png",
+            categoryImage: "./images/food/noodles.png",
             categoryName: "Noodles"
         },
         {
             categoryId: 4,
-            categoryImage: "/images/food/sandwich.png",
+            categoryImage: "./images/food/sandwich.png",
             categoryName: "Sandwich"
         },
         {
             categoryId: 5,
-            categoryImage: "/images/food/chowmin.png",
+            categoryImage: "./images/food/chowmin.png",
             categoryName: "Chowmin"
         },
         {
             categoryId: 6,
-            categoryImage: "/images/food/steak.png",
+            categoryImage: "./images/food/steak.png",
             categoryName: "Steak"
         },
     ]
@@ -268,21 +268,21 @@ const Home = () => {
           "adId":1,
           "title": "Best deals <span style='color: #FFB30E'>Crispy Sandwiches<span>",
           "subtitle": "Enjoy the large size of sandwiches. Complete perfect slice of sandwiches.",
-          "image": "/images/ads/ad1.png",
+          "image": "./images/ads/ad1.png",
           "cta": "#"
         },
         {
           "adId":2,
           "title": "Celebrate parties with <span style='color: #FFB30E'>Fried Chicken<span>",
           "subtitle": "Get the best fried chicken smeared with a lip-smacking lemon chili flavor. Check out best deals for fried chicken.",
-          "image": "/images/ads/ad2.png",
+          "image": "./images/ads/ad2.png",
           "cta": "#"
         },
         {
           "adId":3,
           "title": "Wanna eat hot & spicy <span style='color: #FFB30E'>Pizza?<span>",
           "subtitle": "Pair up with a friend and enjoy the hot and crispy pizza pops. Try it with the best deals.",
-          "image": "/images/ads/ad3.png",
+          "image": "./images/ads/ad3.png",
           "cta": "#"
         }
       ]
@@ -374,7 +374,7 @@ const Home = () => {
                                 <hr className="h-px my-4 bg-gray-100 border-0 dark:bg-gray-200"></hr>
                                 <div className="mt-2">
                                     <div className="flex items-center rounded-md bg-white p-1 outline-1 -outline-offset-1 outline-gray-300 has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-yellow-400">
-                                        <div className="shrink-0 text-base text-gray-500 select-none sm:text-sm/6"><img className="h-5 w-4 mx-2" src="/map-marker-alt.png" alt="map-icon"/></div>
+                                        <div className="shrink-0 text-base text-gray-500 select-none sm:text-sm/6"><img className="h-5 w-4 mx-2" src="./map-marker-alt.png" alt="map-icon"/></div>
                                         <input type="text" name="pincode" className="block min-w-0 grow py-1.5 pr-3 pl-1 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6" placeholder="Enter your area pincode"/>
                                         <div className="grid shrink-0 grid-cols-1 focus-within:relative mx-1">
                                             <button className="btn-grad rounded-sm  w-auto text-white" style={{cursor:"pointer"}}>Search</button>
@@ -385,7 +385,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="hidden md:flex min-w-50 mx-20 flex-col justify-end mx-3">
-                        <img className="max-h-80" src="/banner-food.png" alt="Tasty"/>
+                        <img className="max-h-80" src="./banner-food.png" alt="Tasty"/>
                     </div>
                 </div>
             </section>
@@ -417,17 +417,17 @@ const Home = () => {
                 </div>
                 <div className="container flex flex-wrap justify-center gap-8">
                     <div className="flex flex-col justify-center min-w-40 max-w-60 align-center text-center">
-                        <img src="/feature1.svg" alt="feature 1" className="h-24 mt-3 mb-12"/>
+                        <img src="./feature1.svg" alt="feature 1" className="h-24 mt-3 mb-12"/>
                         <h3 className="font-bold text-lg">Select location</h3>
                         <p>Choose the location where your food will be delivered.</p>
                     </div>
                     <div className="flex flex-col justify-center min-w-40 max-w-60 align-center text-center">
-                        <img src="/feature2.svg" alt="feature 2" className="h-40"/>
+                        <img src="./feature2.svg" alt="feature 2" className="h-40"/>
                         <h3 className="font-bold text-lg">Choose order</h3>
                         <p>Check over hundreds of menus to pick your favorite food</p>
                     </div>
                     <div className="flex flex-col justify-center min-w-40 max-w-60 align-center text-center">
-                        <img src="/feature3.svg" alt="feature 3" className="h-46"/>
+                        <img src="./feature3.svg" alt="feature 3" className="h-46"/>
                         <h3 className="font-bold text-lg">Pay advanced</h3>
                         <p>It's quick, safe, and simple. Select several methods of payment</p>
                     </div>

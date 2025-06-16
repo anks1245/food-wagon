@@ -16,7 +16,7 @@ const AppRoutes = () => {
     const userAuth = useSelector((state: RootState)=>state.auth.value)
 
     return(
-        <Routes>
+        <Routes >
             <Route index element={<Home />} />
             <Route path="/about" element={<About/>} />
             <Route path="/menu" element={<Menu/>} />

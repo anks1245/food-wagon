@@ -39,7 +39,7 @@ const Header = () => {
                     <div className="flex lg:flex-1">
                         <a href="/" className="-m-1.5 p-1.5">
                             <span className="sr-only">Your Company</span>
-                            <img className="h-8 w-auto" src="/logo.png" alt=""/>
+                            <img className="h-8 w-auto" src="./logo.png" alt=""/>
                         </a>
                     </div>
                     <div className="flex lg:hidden">
@@ -56,7 +56,7 @@ const Header = () => {
                     </div>
                     <div className="hidden lg:flex lg:gap-x-13 w-auto" onClick={()=>setLocation(true)}>
                         <div className="flex flex-wrap item-center justify-center cursor-pointer">
-                            <div className="flex item-center justify-center"><b>Deliver to:</b><img className="h-5 w-4 mx-2" src="/map-marker-alt.png" alt="map-icon"/>Current Location</div>&nbsp;
+                            <div className="flex item-center justify-center"><b>Deliver to:</b><img className="h-5 w-4 mx-2" src="./map-marker-alt.png" alt="map-icon"/>Current Location</div>&nbsp;
                             <div>Dhaka, Bangladesh</div>
                         </div>
                     </div>
@@ -65,7 +65,7 @@ const Header = () => {
                             <i className="fa-solid fa-utensils"></i>&nbsp; Explore Menu
                         </NavLink>
                         <NavLink to="/cart" className="relative mx-6 transition duration-300 ease-in-out hover:scale-125 flex items-center" style={{cursor:"pointer"}}>
-                            <img className="h-6 w-6" src="/cart.png" alt="Cart"/>
+                            <img className="h-6 w-6" src="./cart.png" alt="Cart"/>
                             {cartItems.length>0?<span className="absolute top-0 right-0 h-4 min-w-4 bg-red-700 text-[10px] text-white font-bold" style={{ borderRadius:"50%", textAlign:"center", padding:"1px 0px"}}>{cartItems.length}</span>:<></>}
                         </NavLink>
                         {userAuth==null?(
@@ -123,7 +123,7 @@ const Header = () => {
                         <div className="flex items-center justify-between">
                             <a href="#" className="-m-1.5 p-1.5">
                                 <span className="sr-only">Your Company</span>
-                                <img className="h-8 w-auto" src="/logo-only.png" alt=""/>
+                                <img className="h-8 w-auto" src="./logo-only.png" alt=""/>
                             </a>
                             <button type="button" className="-m-2.5 rounded-md p-2.5 text-gray-700" onClick={()=>setMobileMenuOpen(false)}>
                                 <span className="sr-only">Close menu</span>

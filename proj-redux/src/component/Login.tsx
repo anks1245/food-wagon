@@ -74,7 +74,7 @@ const LoginComponent = ({isShown, destroy}: LoginModalProps) => {
                             <div className="bg-white">
                                 <div className="grid grid-cols-1 md:grid-cols-2">
                                     <div className="hidden md:block lg:block">
-                                        <img className="h-140" src="/login-banner.jpg" alt="login banner"/>
+                                        <img className="h-140" src="./login-banner.jpg" alt="login banner"/>
                                     </div>
                                     <div className="h-auto md:h-140 p-10 bg-white flex flex-col justify-center">
                                         {!isOtpSent && <>
