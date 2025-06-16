@@ -1,10 +1,10 @@
-import { AnchorHTMLAttributes, useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { NavLink } from "react-router";
 import "./css/Style.css";
-import LoginComponent, { LoginResponse } from "./Login";
-import { useDispatch, useSelector } from "react-redux";
+import LoginComponent from "./Login";
+import { useSelector } from "react-redux";
 import { RootState } from "../redux/store";
-import { logout } from "../features/auth/authSlice";
+// import { logout } from "../features/auth/authSlice";
 import LogoutAlert from "./LogoutAlert";
 import LocationModal from "./LocationModal";
 
@@ -86,7 +86,7 @@ const Header = () => {
                                     <path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
                                 </svg>
                             </a>
-                            <div ref={menuRef} className={`absolute left-1/2 mt-8 flex w-screen max-w-max -translate-x-1/2 px-4 transition-all duration-300 ${isProfileMenuOpen?"opacity-100 z-10":"h-0 opacity-0"}`}>
+                            <div ref={menuRef} className={`absolute left-1/2 mt-8 flex w-screen max-w-max -translate-x-2/3 transition-all duration-300 ${isProfileMenuOpen?"opacity-100 z-10":"h-0 opacity-0"}`}>
                                 <div className="w-50 max-md flex-auto overflow-hidden rounded-lg bg-white text-sm/6 ring-1 shadow-lg ring-gray-900/5">
                                     <div className="p-4">
                                         <ul>

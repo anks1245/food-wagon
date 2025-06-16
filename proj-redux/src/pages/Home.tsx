@@ -1,9 +1,9 @@
-import { useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useState } from "react";
+import { useDispatch } from "react-redux";
 import { NavLink } from "react-router";
 import Slider from "react-slick";
 import { add } from "../features/cart/cartSlice";
-import { RootState } from "../redux/store";
+// import { RootState } from "../redux/store";
 import { Offer } from "../types/Offer";
 import { Product } from "../types/Product";
 import { Restaurant } from "../types/Restaurant";

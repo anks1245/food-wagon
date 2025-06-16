@@ -1,6 +1,6 @@
 import { NavLink } from "react-router"
 import { Product } from "../types/Product"
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { RootState } from "../redux/store";
 
@@ -11,13 +11,13 @@ interface ProductProps{
 
 export const ProductCard = ({product, action}: ProductProps) => {
     // console.log(action);
-    const [isAdded, setIsAdded] = useState(false);
+    // const [isAdded, setIsAdded] = useState(false);
     const cartItems = useSelector((state: RootState)=> state.cart.values)
 
-    const handleClick = () => {
-        setIsAdded(true);
-        setTimeout(() => setIsAdded(false), 2000); // Reset after 2s
-    };
+    // const handleClick = () => {
+    //     setIsAdded(true);
+    //     setTimeout(() => setIsAdded(false), 2000); // Reset after 2s
+    // };
     
     return (
         <>

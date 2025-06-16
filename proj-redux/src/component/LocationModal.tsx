@@ -1,6 +1,6 @@
-import { FormEvent, useState } from "react";
-import { ReactFormState } from "react-dom/client";
-import { NavLink } from "react-router";
+import { FormEvent } from "react";
+// import { ReactFormState } from "react-dom/client";
+// import { NavLink } from "react-router";
 
 interface LocationModalProps{
     isShown: boolean,
@@ -8,7 +8,7 @@ interface LocationModalProps{
 }
 
 const LocationModal = ({isShown, close}: LocationModalProps) => {
-    const [location, setLocation] = useState("");
+    // const [location, setLocation] = useState("");
 
     const handleSubmit = (e:FormEvent) => {
         e.preventDefault();

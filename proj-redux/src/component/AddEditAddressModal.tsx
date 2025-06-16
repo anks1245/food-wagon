@@ -1,5 +1,5 @@
-import { ChangeEvent, FormEvent, InputHTMLAttributes, useEffect, useRef, useState } from "react"
-import mapboxgl, { Map } from "mapbox-gl";
+import { ChangeEvent, useEffect, useRef, useState } from "react"
+import mapboxgl from "mapbox-gl";
 import 'mapbox-gl/dist/mapbox-gl.css';
 import MapboxGeocoder from "@mapbox/mapbox-gl-geocoder";
 import "@mapbox/mapbox-gl-geocoder/dist/mapbox-gl-geocoder.css";

@@ -1,4 +1,4 @@
-import { ChangeEvent, FormEvent, InputHTMLAttributes, useEffect, useState } from "react"
+import { ChangeEvent, FormEvent, useEffect, useState } from "react"
 import { useDispatch } from "react-redux"
 import { login } from "../features/auth/authSlice"
 
@@ -16,7 +16,7 @@ const LoginComponent = ({isShown, destroy}: LoginModalProps) => {
     const [isOtpSent, setOtpSent] = useState(false);
     const [mobileNo, setMobileNo] = useState("");
     const [otp, setOtp] = useState("");
-    const [isLogIn, setLogIn] = useState(false);
+    // const [isLogIn, setLogIn] = useState(false);
     const [errorMsg, setErrorMsg] = useState("");
     const dispatch = useDispatch();
 
@@ -55,7 +55,7 @@ const LoginComponent = ({isShown, destroy}: LoginModalProps) => {
         setMobileNo("");
         setOtp("");
         setOtpSent(false);
-        setLogIn(true)
+        // setLogIn(true)
         destroy()
     }
 
