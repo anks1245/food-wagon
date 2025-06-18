@@ -432,7 +432,7 @@ const Home = () => {
                         <p>It's quick, safe, and simple. Select several methods of payment</p>
                     </div>
                     <div className="flex flex-col justify-center min-w-40 max-w-60 align-center text-center">
-                        <img src="/feature4.svg" alt="feature 4" className="h-24 mt-2 mb-12"/>
+                        <img src="./feature4.svg" alt="feature 4" className="h-24 mt-2 mb-12"/>
                         <h3 className="font-bold text-lg">Enjoy meals</h3>
                         <p>Food is made and delivered directly to your home.</p>
                     </div>
@@ -495,13 +495,13 @@ const Home = () => {
                     <div className="container min-h-100 flex justify-center items-center">
                         <div className="grid grid-cols-1 md:grid-cols-3 bg-(--md-sys-color-background) rounded-xl shadow-lg p-10">
                             <div className="border-b md:border-b-0 md:border-r  border-(--md-sys-color-outline-variant) p-10">
-                                <img src="/images/we-provide-1.svg" className="max-w-50 " alt="feature 1"/>
+                                <img src="./images/we-provide-1.svg" className="max-w-50 " alt="feature 1"/>
                             </div>
                             <div className="p-10">
-                                <img src="/images/we-provide-2.svg" className="max-w-50 " alt="feature 1"/>
+                                <img src="./images/we-provide-2.svg" className="max-w-50 " alt="feature 1"/>
                             </div>
                             <div className="border-t md:border-t-0 md:border-l  border-(--md-sys-color-outline-variant) p-10">
-                                <img src="/images/we-provide-3.svg" className="max-w-50 " alt="feature 1"/>
+                                <img src="./images/we-provide-3.svg" className="max-w-50 " alt="feature 1"/>
                             </div>
                         </div>
                     </div>
@@ -509,20 +509,20 @@ const Home = () => {
             <section className="bg-(--color-bg-fade) flex flex-col items-center">
                 <div className="flex justify-center w-[100vw] curve-bg overflow-hidden">
                     <div className="flex flex-col-reverse md:flex-row items-center">
-                        <img src="/mobile-app.png" className="max-h-100"/>
+                        <img src="./mobile-app.png" className="max-h-100"/>
                         <div className="px-10 py-10 md:py-10 max-w-120 text-center md:text-left">
                             <h2 className="font-bold text-[36px] text-[--color-primary]">Install the app</h2>
                             <p>It's never been easier to order food. Look for the finest discounts and you'll be lost in a world of delectable food.</p>
                             <div className="flex flex-row gap-4 my-6 justify-center md:justify-start">
                                 <a href="#" className="bg-white px-4 py-2 flex flex-row flex-nowrap">
-                                    <img className="w-5" src="/google-play-download.svg" alt="google playstore"/>
+                                    <img className="w-5" src="./google-play-download.svg" alt="google playstore"/>
                                     <div className="ml-3" style={{lineHeight: 1}}>
                                         <span className="text-[10px]">GET IT ON</span>
                                         <h5>Google Play</h5>
                                     </div>
                                 </a>
                                 <a href="#" className="bg-white px-4 py-2 flex flex-row flex-nowrap justify-center">
-                                    <img className="w-5" src="/app-store-download.svg" alt="app store"/>
+                                    <img className="w-5" src="./app-store-download.svg" alt="app store"/>
                                     <div className="ml-3" style={{lineHeight: 1}}>
                                         <span className="text-[10px]">GET IT ON</span>
                                         <h5>App Store</h5>

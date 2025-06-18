@@ -37,7 +37,7 @@ const Header = () => {
             <header className="bg-white sticky top-0 z-9 shadow-lg">
                 <nav className="lg:container mx-auto flex max-w-7x1 item-center justify-between items-center p-6 lg:px-8" aria-label="Global">
                     <div className="flex lg:flex-1">
-                        <a href="/" className="-m-1.5 p-1.5">
+                        <a href="./" className="-m-1.5 p-1.5">
                             <span className="sr-only">Your Company</span>
                             <img className="h-8 w-auto" src="./logo.png" alt=""/>
                         </a>
@@ -121,7 +121,7 @@ const Header = () => {
                     }
                     <div className={`fixed inset-y-0 right-0 z-10 w-full max-w-sm bg-white px-6 py-6 transition-transform duration-300 ease-in-out ${mobileMenuOpen ? "translate-x-0" : "translate-x-full"}`}>
                         <div className="flex items-center justify-between">
-                            <a href="#" className="-m-1.5 p-1.5">
+                            <a href="./" className="-m-1.5 p-1.5">
                                 <span className="sr-only">Your Company</span>
                                 <img className="h-8 w-auto" src="./logo-only.png" alt=""/>
                             </a>
