@@ -27,7 +27,7 @@ export const ProductCard = ({product, action}: ProductProps) => {
                 <NavLink to={"#"} className="text-(--color-primary) hover:underline">📍 {product.restaurantName}</NavLink>
                 <p className={`${product.offeredPrice!=null?"line-through":""}`}>{`${product.currency} ${product.price} `} </p>
                 <p className={`font-semibold ${product.offeredPrice!=null?"opacity-100":"opacity-0"}`}>{`${product.currency} ${product.offeredPrice}`}</p>
-                <button className={`relative w-full text-white my-2 transition-all duration-500 bg-(--color-warning) overflow-hidden`} onClick={()=>{ 
+                <button className={`relative w-full my-2 transition-all duration-500 bg-(--color-warning) overflow-hidden`} onClick={()=>{ 
                     console.log("clicked");
                     if(cartItems.find(item => 
                         item.foodId === product.foodId && 
